@@ -4,7 +4,6 @@ const NavHour = () => {
     return (
         <div className="navHour">
         </div>    
-     
     )
 }
 

@@ -1,6 +1,6 @@
 body{
   font-family: 'Ubuntu', sans-serif;
-  background-color: #b99e96;
+  background-color: #c8c3bf;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11,10 +11,12 @@ body{
 
 .container{
   margin: 0 auto;
-  width: 1000px;
-  height: 730px;
+  height: 90vh;
+  width: 100vw;
   padding: 0px;
-  background-color: #f5ecec;
+  background-color: #ffffff;
+  background-repeat: repeat;
+  background-image: url(images/patternpink.png);
 }
 
 /* Barra Superior de Navegación*/
@@ -26,8 +28,8 @@ body{
 
 .btnNav{
   width: 15%;
-  height: 62px;
-  background: #9e8d85;
+  height: 10vh;
+  background: #ffbbaa;
   border: none;
   text-decoration: none;
   border: 1px solid  #f5ecec;
@@ -36,6 +38,10 @@ body{
 
 .btnNav:hover {
   opacity: 0.6;
+}
+
+.color{
+  background-color: #a07b7c;
 }
 
 .btnNavText{
@@ -48,81 +54,90 @@ body{
   text-decoration: none;
 }
 
-.navHour{
-  margin: 0 auto;
-  background-color: #1eb6b6;
-  width: 25%;
-  height: 62px;
-  border: 1px solid  #f5ecec;
-}
-
 /* Sub Contenedor General, trabajo horizontal en %*/
 
 .containerGeneral{
   display: inline;
   width: 100%;
-  height: 668px;
+  height: 90vh;
+}
+
+/*Login*/
+
+.containerLogin{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #464240;
+  margin-top: 5%;
+  padding: 20px;
 }
 
 /*Home*/
 
 .containerHome{
+  font-family: 'Jua', sans-serif;
   display: inline-flex;
   width: 100%;
-  height: 668px;
+  height: 90vh;
+  color: #9e8173;
 }
 
-.containerImg{
-
-  width: 75%;
-  height: 668px;
-  background-size: 70%;
-  background-repeat: no-repeat;
-  background-image: url(images/MiauCoffee.png);
-  background-position: 55% 50%;
+.logout{
+  margin: 0 auto;
+  width: 60%;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border-style: none;
+  background-color:#a07b7c;
+  padding: 15px;
+  color: #ffffff;
 }
 
-.formLogin{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 200px;
-  font-family: 'Jua', sans-serif;
-  color:  #1f1e1e;
-  font-size: 25px;
+.logout:hover {
+  opacity: 0.6;
 }
 
-.formElements{
-  text-align: center;
-  width: 220px;
-  height: 40px;
-  margin: 10px;
-  font-size: 18px;
-  font-weight: bold;
-  background: #ffffff;
-  border-radius: 50px; 
-  border: none;
-}
 
 /* Componentes Genéricos */
 
 .navLeft{
-  background-color: #1eb6b6;
+  background-color: #ffd0be;
   width: 15%;
-  height: 668px;
+  height: 80vh;
   border: 1px solid  #f5ecec;
 }
 
 .navRight{
-  background-color: #1eb6b6;
+  display: flex;
+  flex-direction: column-reverse;
+  border: 1px solid  #f5ecec;
+  background-color: #ffd0be;
   width: 25%;
-  height: 668px;
+  height: 80vh;
+}
+
+.navHour{
+  margin: 0 auto;
+  background-color: #ffd0be;
+  width: 25%;
+  height: 10vh;
   border: 1px solid  #f5ecec;
 }
 
 .containerEmpty{
   width: 60%;
-  height: 668px;
+  height: 80vh;
+}
+
+.containerEmptyBig{
+  width: 75%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
 
 /*Mesas*/
