@@ -8,7 +8,7 @@ export const Home = () => {
                 <div className="welcome-text text-center h2" >Have a good day!</div>
             </div>
          <div className="navRight">
-             <button className="logout">FINALIZAR TURNO</button>
+             <button className="btn btn-md mb-5 btn-info btn-block logout">FINALIZAR TURNO</button>
              </div> 
     </div>
     )

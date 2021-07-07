@@ -47,7 +47,7 @@ export const FormLogin = (props) => {
             setEmail('')
             setPass('')
             setError(null)
-            this.props.history.push('/home')
+            props.history.push('/home')
         } catch (error) {
             console.log(error)
             if(error.code === 'auth/user-not-found'){
@@ -60,7 +60,7 @@ export const FormLogin = (props) => {
                 setError('Usuario no encontrado')
             }
         }
-    }, [email, pass])
+    }, [email, pass, props.history])
 
 
     const registrar = React.useCallback(async() => {
@@ -71,7 +71,7 @@ export const FormLogin = (props) => {
             setEmail('')
             setPass('')
             setError(null)
-            this.props.history.push('/home')
+            props.history.push('/home')
         } catch (error) {
             console.log(error)
             if(error.code === 'auth/invalid-email'){
@@ -81,7 +81,7 @@ export const FormLogin = (props) => {
                     setError('El correo ya se encuentra en uso')
             }
         }
-    }, [email, pass])
+    }, [email, pass, props.history])
 
         return (
             <div className="mt-1">
