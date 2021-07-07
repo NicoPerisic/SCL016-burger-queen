@@ -9,7 +9,6 @@ import { Pago } from './views/Pago.jsx';
 import { Login } from './views/Login';
 import { Navbar } from './complements/Navbar';
 
-
 function App() {
   return (
     <Router>
@@ -38,7 +37,6 @@ function App() {
               <Pago />
             </Route>
         </Switch>
-
       </div>
     </Router>
   );
