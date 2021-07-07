@@ -66,24 +66,23 @@ export const Menu = () => {
             </div>
             <div className="containerEmpty overflow-auto">
             {arrayMenu.map((item) => (
-                    <div className="card" key={item.id}>
-                    <div className="card-body">
+                    <div className="cardContainer" key={item.id}>
+                    <div className="card-img">
                         <img className="card-img-top"
                         src={item.image}
                         alt={item.title}/>
-                        <div className="card-body">
-                        <h6 className="card-title text-small">{item.title}</h6>
+                        </div>
+                        <div className="card-element">
+                        <div className="card-text"><strong>{item.title}</strong></div>
                         <p className="card-text">{item.description}</p>
-                        <p className="card-text">
-                        <small className="text-muted">{item.price}</small></p>
+                        <div className="card-text">{'$' + item.price}</div>
+                        </div>
                         <button
-                        className="btn btn-info float-right"
+                        className="btn btn-info"
                         onClick={() => agregarProductos(JSON.stringify(item))}>
                         +
                         </button>
-                        </div>
-                        </div>
-                    </div>
+                        </div>            
                 ))}
             </div>
         <div className="navRight"></div> 

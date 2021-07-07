@@ -3,7 +3,7 @@
       "id": "b1",
       "title": "Espresso",
       "description": "Shot de café",
-      "image": "../images/menu/bebestibles/espresso.png",
+      "image": "https://firebasestorage.googleapis.com/v0/b/miau-coffee.appspot.com/o/espresso.png?alt=media&token=377a7a4e-df5f-423d-8dfe-3bdbb279d890",
       "price": 990,
       "type": "drinkables"
     },
@@ -11,7 +11,7 @@
       "id": "b2",
       "title": "Latte",
       "description": "Café, leche, espuma y sabor a elección.",
-      "image": "../images/menu/bebestibles/latte.png",
+      "image": "https://firebasestorage.googleapis.com/v0/b/miau-coffee.appspot.com/o/latte.png?alt=media&token=77b39be2-cc14-4715-9804-43cd795c3751",
       "price": 1490,
       "type": "drinkables"
     },
@@ -19,7 +19,7 @@
       "id": "b3",
       "title": "Capuccino",
       "description": "Café, leche y espuma.",
-      "image": "../images/menu/bebestibles/capuccino.png",
+      "image": "https://firebasestorage.googleapis.com/v0/b/miau-coffee.appspot.com/o/capuccino.png?alt=media&token=f6069a25-b6ad-413a-8272-4b5b89f63a50",
       "price": 1490,
       "type": "drinkables"
     },
@@ -27,7 +27,7 @@
       "id": "b4",
       "title": "Americano",
       "description": "Café sólo",
-      "image": "../images/menu/bebestibles/americano.png",
+      "image": "https://firebasestorage.googleapis.com/v0/b/miau-coffee.appspot.com/o/americano.png?alt=media&token=8969a5d5-030a-4045-b419-d833b3c6a0eb",
       "price": 990,
       "type": "drinkables"
     },
@@ -35,28 +35,28 @@
       "id": "s1",
       "title": "Aliado jamón queso",
       "description": "Sándwich miga o croissant relleno con jamón o jamón de pavo y queso fundido.",
-      "image": "../images/menu/salado/aliado-jamon-queso.png",
+      "image": "https://firebasestorage.googleapis.com/v0/b/miau-coffee.appspot.com/o/aliado-jamon-queso.png?alt=media&token=295bf0b8-50b3-42dd-ba96-05edc374932f",
       "price": 990,
       "type": "salty"
     }, {
       "id": "s2",
       "title": "Sándwich ave palta",
       "description": "Láminas de pollo a la plancha, palta y mayonesa en pan de miga italiano.",
-      "image": "../images/menu/salado/ave-palta.png",
+      "image": "https://firebasestorage.googleapis.com/v0/b/miau-coffee.appspot.com/o/ave-palta.png?alt=media&token=c3e74aa9-3c7c-474a-bb70-96ca80f81b66",
       "price": 1490,
       "type": "salty"
     }, {
       "id": "s3",
       "title": "Sándwich pollo italiano",
       "description": "Sándwich láminas de pechuga de pollo, trozos de tomate, palta y un toque de mayonesa en pan ciabatta.",
-      "image": "../images/menu/salado/pollo-italiano.png",
+      "image": "https://firebasestorage.googleapis.com/v0/b/miau-coffee.appspot.com/o/pollo-italiano.png?alt=media&token=b7c5ff96-3cf8-407b-a401-d6f570c62fea",
       "price": 1490,
       "type": "salty"
     }, {
       "id": "s4",
       "title": "Salmón Rúcula",
       "description": "Sándwich con láminas de salmón ahumado, queso crema, palta, rúcula y berros en pan ciabatta.",
-      "image": "../images/menu/salado/salmon-rucula.png",
+      "image": "https://firebasestorage.googleapis.com/v0/b/miau-coffee.appspot.com/o/salmon-rucula.png?alt=media&token=ee21f3a2-e7e0-4300-b4e3-57783c2ae816",
       "price": 1990,
       "type": "salty"
     },
@@ -64,28 +64,28 @@
       "id": "d1",
       "title": "Trozo de torta",
       "description": "Bizcocho y relleno según disponibilidad.",
-      "image": "../images/menu/dulce/trozo-torta.png",
+      "image": "https://firebasestorage.googleapis.com/v0/b/miau-coffee.appspot.com/o/trozo-torta.png?alt=media&token=db6e840c-dc94-4196-8ab5-32eaf355ccea",
       "price": 1490,
       "type": "sweet"
     }, {
       "id": "d2",
       "title": "Trozo de Kuchen",
       "description": "Masa y relleno según disponibilidad.",
-      "image": "../images/menu/dulce/trozo-kuchen.png",
+      "image": "https://firebasestorage.googleapis.com/v0/b/miau-coffee.appspot.com/o/trozo-kuchen.png?alt=media&token=7970b830-4377-4943-9cc4-97f044d0075c",
       "price": 1490,
       "type": "sweet"
     }, {
       "id": "d3",
       "title": "Trozo de Cheesecake",
       "description": "Tarta de queso con cobertura según disponibilidad.",
-      "image": "../images/menu/dulce/trozo-cheesecake.png",
+      "image": "https://firebasestorage.googleapis.com/v0/b/miau-coffee.appspot.com/o/trozo-cheesecake.png?alt=media&token=efd88a1c-0c1f-405e-8f87-1e9134c7f0a3",
       "price": 1490,
       "type": "sweet"
     }, {
       "id": "d4",
       "title": "Muffin",
       "description": "Bizchocho relleno, sabor según disponibilidad.",
-      "image": "../images/menu/dulce/mufin.png",
+      "image": "https://firebasestorage.googleapis.com/v0/b/miau-coffee.appspot.com/o/muffin.png?alt=media&token=2f1b149a-929e-458d-8cc4-3005681d8685",
       "price": 990,
       "type": "sweet"
     }
